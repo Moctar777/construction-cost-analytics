@@ -21,9 +21,51 @@ Analyze construction project costs and budgets using SQL and Power BI.
 
 ## Tools
 
+Construction-Cost-Control-Project/
+
+README.md
+
+data/
+    Projects.csv
+    ActualCosts.csv
+    Vendors.csv
+
+sql/
+    01_schema.sql
+    02_insert_data.sql
+    03_cost_analysis.sql
+
+dashboard/
+    Construction_Cost_Dashboard.pbix
+
+images/
+    dashboard_preview.png
+
 - SQL
 - Excel
 - Power BI
+
+- Construction-Cost-Analysis/
+│
+├── data/
+│   ├── Projects.csv
+│   ├── ActualCosts.csv
+│   └── Vendors.csv
+│
+├── sql/
+│   ├── 01_create_tables.sql
+│   ├── 02_load_data.sql
+│   ├── 03_data_cleaning.sql
+│   ├── 04_business_questions.sql
+│   └── 05_kpi_analysis.sql
+│
+├── dashboard/
+│   └── PowerBI.pbix
+│
+├── images/
+│   └── dashboard.png
+│
+└── README.md
 
 ## Author
 
